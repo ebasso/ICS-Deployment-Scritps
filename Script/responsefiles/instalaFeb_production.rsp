@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<agent-input>
+  <variables>
+    <variable name='sharedLocation' value='/opt/IBM/IMShared'/>
+  </variables>
+  <server>
+    <repository location='/opt/IBM/Binarios/c55/feb/FormsImage'/>
+  </server>
+  <profile id='IBM Forms Experience Builder' installLocation='/opt/IBM/FormsExperienceBuilder'>
+    <data key='cic.selector.arch' value='x86_64'/>
+    <data key='user.profile.connections.url,com.ibm.nitro.iim' value='https://connections.company.com/communities'/>
+    <data key='user.profile.was.host,com.ibm.nitro.iim' value='cnx11.company.com'/>
+    <data key='user.profile.was.profile.location,com.ibm.nitro.iim' value='/opt/IBM/WebSphere/AppServer/profiles/AppSrv01'/>
+    <data key='user.profile.was.port,com.ibm.nitro.iim' value='8879'/>
+    <data key='user.profile.was.profile.name,com.ibm.nitro.iim' value='AppSrv01'/>
+    <data key='user.profile.was.admin.password,com.ibm.nitro.iim' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.profile.was.admin.name,com.ibm.nitro.iim' value='@@WAS_USERNAME@@'/>
+    <data key='user.profile.was.server.name,com.ibm.nitro.iim' value='febserver'/>
+    <data key='user.profile.was.location,com.ibm.nitro.iim' value='/opt/IBM/WebSphere/AppServer'/>
+    <data key='user.profile.was.database.server.port,com.ibm.nitro.iim' value='50000'/>
+    <data key='user.profile.was.data.source.name,com.ibm.nitro.iim' value='IBM_FORMS_DATA_SOURCE'/>
+    <data key='user.profile.was.database.password,com.ibm.nitro.iim' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.profile.was.database.driver.type,com.ibm.nitro.iim' value='4'/>
+    <data key='user.profile.was.jdbc.library.location,com.ibm.nitro.iim' value='/opt/IBM/db2/V10.5/java/'/>
+    <data key='user.profile.was.database.name,com.ibm.nitro.iim' value='FEBDB'/>
+    <data key='user.profile.was.jdbc.provider.name,com.ibm.nitro.iim' value='IBM_FORMS_JDBC_PROVIDER'/>
+    <data key='user.profile.was.database.user,com.ibm.nitro.iim' value='LCUSER'/>
+    <data key='user.profile.was.database.server.name,com.ibm.nitro.iim' value='proddb2-febdb.company.com'/>
+    <data key='user.profile.was.mail.transport.server,com.ibm.nitro.iim' value='smtp.company.com'/>
+    <data key='user.profile.was.mail.transport.protocol,com.ibm.nitro.iim' value='smtp'/>
+    <data key='user.profile.was.mail.session.name,com.ibm.nitro.iim' value='IBM_FORMS_MAIL_SESSION'/>
+    <data key='user.profile.was.mail.transport.password,com.ibm.nitro.iim' value='XjTveChg5ba6olBVMK/Reg=='/>
+    <data key='user.profile.was.mail.transport.password.verify,com.ibm.nitro.iim' value='XjTveChg5ba6olBVMK/Reg=='/>
+    <data key='user.profile.portlet.job.type,com.ibm.nitro.iim' value='UNKNOWN'/>
+    <data key='user.profile.job.type,com.ibm.nitro.iim' value='INSTALL'/>
+    <data key='user.profile.was.job.type,com.ibm.nitro.iim' value='INSTALL'/>
+  </profile>
+  <install>
+    <!-- IBM Forms Experience Builder 8.5.1.0 -->
+    <offering profile='IBM Forms Experience Builder' id='com.ibm.nitro.iim' version='8.5.1000.20151118-0039-28' features='binary.feature,extension.connections.feature'/>
+  </install>
+  <preference name='com.ibm.cic.common.core.preferences.eclipseCache' value='${sharedLocation}'/>
+  <preference name='offering.service.repositories.areUsed' value='false'/>
+</agent-input>

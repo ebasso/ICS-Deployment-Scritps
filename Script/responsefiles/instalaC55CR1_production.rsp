@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<agent-input>
+  <variables>
+    <variable name='sharedLocation' value='/opt/IBM/IMShared'/>
+  </variables>
+  <server>
+    <repository location='/opt/IBM/Binarios/c55fix/updates'/>
+  </server>
+  <profile id='IBM Connections' installLocation='/opt/IBM/Connections'>
+    <data key='cic.selector.arch' value='x86_64'/>
+    <data key='user.job' value='UPDATE'/>
+    <data key='user.lcinstallscript.path' value='/tmp/LCInstallScript'/>
+    <data key='user.nodeslist' value='cnx00Node,cnx01Node,cnx02Node,cnx03Node,cnx04Node,cnx05Node,cnx12Node,'/>
+    <data key='user.nodesHostnamelist' value='cnx00.company.com,cnx01.company.com,cnx02.company.com,cnx03.company.com,cnx04.company.com,cnx05.company.com,cnx12.company.com,'/>
+    <data key='user.nodeAgentList' value='cnx00Node:true;cnx01Node:true;cnx02Node:true;cnx03Node:true;cnx04Node:true;cnx05Node:true;cnx12Node:true;'/>
+    <data key='user.was.install.location' value='/opt/IBM/WebSphere/AppServer'/>
+    <data key='user.was.install.location.configproperties' value='/opt/IBM/WebSphere/AppServer'/>
+    <data key='user.was.install.location.win32format' value='/opt/IBM/WebSphere/AppServer'/>
+    <data key='user.was.userhome.original' value='/opt/IBM/WebSphere/AppServer/profiles/Dmgr01'/>
+    <data key='user.was.userhome' value='/opt/IBM/WebSphere/AppServer/profiles/Dmgr01'/>
+    <data key='user.was.userhome.configproperties' value='/opt/IBM/WebSphere/AppServer/profiles/Dmgr01'/>
+    <data key='user.was.wasSoapPort' value='8879'/>
+    <data key='user.was.profileName' value='Dmgr01'/>
+    <data key='user.was.dmCellName' value='connectionsCell'/>
+    <data key='user.was.dmHostname' value='cnx11.company.com'/>
+    <data key='user.was.domainName' value='.company.com'/>
+    <data key='user.was.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.was.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.was.adminuser.xor.encrypted.password' value='{xor}ODo8NjFtbQ=='/>
+    <data key='user.activities.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.activities.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.blogs.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.blogs.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.dogear.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.dogear.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.communities.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.communities.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.files.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.files.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.forums.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.forums.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.homepage.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.homepage.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.ccm.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.ccm.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.metrics.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.metrics.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.mobile.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.mobile.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.moderation.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.moderation.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.news.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.news.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.ccm.install.now' value='true'/>
+    <data key='user.ccm.existingDeployment' value='false'/>
+    <data key='user.ccm.installers.original.path' value='/opt/IBM/Binarios/c55'/>
+    <data key='user.ccm.installers.path' value='/opt/IBM/Binarios/c55'/>
+    <data key='user.ccm.anonymous.user' value='anonymousfn'/>
+    <data key='user.ccm.anonymous.password' value='@@CCM_ENCODED_PASSWORD@@'/>
+    <data key='user.ccm.ce.installer' value='5.2.1-P8CPE-LINUX.BIN'/>
+    <data key='user.ccm.ce.fp.installer' value='5.2.1.2-P8CPE-LINUX-FP002.BIN'/>
+    <data key='user.ccm.ceclient.installer' value='5.2.1.2-P8CPE-CLIENT-LINUX-FP002.BIN'/>
+    <data key='user.ccm.fncs.installer' value='IBM_CONTENT_NAVIGATOR-2.0.3-LINUX.bin'/>
+    <data key='user.ccm.fncs.fp.installer' value='IBM_CONTENT_NAVIGATOR-2.0.3.5-FP005-LINUX.bin'/>
+    <data key='user.profiles.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.profiles.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.search.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.search.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.wikis.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.wikis.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.rte.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.rte.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.common.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.common.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.widgetContainer.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.widgetContainer.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.pushNotification.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.pushNotification.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.deployment.type' value='large'/>
+    <data key='user.activities.clusterExist' value='false'/>
+    <data key='user.activities.clusterName' value='clActivities'/>
+    <data key='user.activities.firstNodeName' value='cnx00Node'/>
+    <data key='user.activities.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.activities.serverInfo' value='activities.cnx00Node.ServerName=clActivities_server0;activities.cnx01Node.ServerName=clActivities_server1;activities.cnx02Node.ServerName=clActivities_server2;activities.cnx03Node.ServerName=clActivities_server3;'/>
+    <data key='user.activities.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clActivities_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clActivities_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clActivities_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clActivities_server3&quot;},]'/>
+    <data key='user.blogs.clusterExist' value='false'/>
+    <data key='user.blogs.clusterName' value='clBlogs'/>
+    <data key='user.blogs.firstNodeName' value='cnx00Node'/>
+    <data key='user.blogs.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.blogs.serverInfo' value='blogs.cnx00Node.ServerName=clBlogs_server0;blogs.cnx01Node.ServerName=clBlogs_server1;blogs.cnx02Node.ServerName=clBlogs_server2;blogs.cnx03Node.ServerName=clBlogs_server3;'/>
+    <data key='user.blogs.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clBlogs_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clBlogs_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clBlogs_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clBlogs_server3&quot;},]'/>
+    <data key='user.dogear.clusterExist' value='false'/>
+    <data key='user.dogear.clusterName' value='clDogear'/>
+    <data key='user.dogear.firstNodeName' value='cnx00Node'/>
+    <data key='user.dogear.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.dogear.serverInfo' value='dogear.cnx00Node.ServerName=clDogear_server0;dogear.cnx01Node.ServerName=clDogear_server1;dogear.cnx02Node.ServerName=clDogear_server2;dogear.cnx03Node.ServerName=clDogear_server3;'/>
+    <data key='user.dogear.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clDogear_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clDogear_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clDogear_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clDogear_server3&quot;},]'/>
+    <data key='user.communities.clusterExist' value='false'/>
+    <data key='user.communities.clusterName' value='clCommunities'/>
+    <data key='user.communities.firstNodeName' value='cnx00Node'/>
+    <data key='user.communities.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.communities.serverInfo' value='communities.cnx00Node.ServerName=clCommunities_server0;communities.cnx01Node.ServerName=clCommunities_server1;communities.cnx02Node.ServerName=clCommunities_server2;communities.cnx03Node.ServerName=clCommunities_server3;'/>
+    <data key='user.communities.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clCommunities_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clCommunities_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clCommunities_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clCommunities_server3&quot;},]'/>
+    <data key='user.files.clusterExist' value='false'/>
+    <data key='user.files.clusterName' value='clFiles'/>
+    <data key='user.files.firstNodeName' value='cnx04Node'/>
+    <data key='user.files.secondaryNodesNames' value='cnx05Node,'/>
+    <data key='user.files.serverInfo' value='files.cnx04Node.ServerName=clFiles_server4;files.cnx05Node.ServerName=clFiles_server5;'/>
+    <data key='user.files.clusterInfo' value='[{&quot;node&quot;: &quot;cnx04Node&quot;, &quot;name&quot;: &quot;clFiles_server4&quot;},{&quot;node&quot;: &quot;cnx05Node&quot;, &quot;name&quot;: &quot;clFiles_server5&quot;},]'/>
+    <data key='user.forums.clusterExist' value='false'/>
+    <data key='user.forums.clusterName' value='clForum'/>
+    <data key='user.forums.firstNodeName' value='cnx00Node'/>
+    <data key='user.forums.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.forums.serverInfo' value='forums.cnx00Node.ServerName=clForum_server0;forums.cnx01Node.ServerName=clForum_server1;forums.cnx02Node.ServerName=clForum_server2;forums.cnx03Node.ServerName=clForum_server3;'/>
+    <data key='user.forums.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clForum_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clForum_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clForum_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clForum_server3&quot;},]'/>
+    <data key='user.homepage.clusterExist' value='false'/>
+    <data key='user.homepage.clusterName' value='clHomepage'/>
+    <data key='user.homepage.firstNodeName' value='cnx00Node'/>
+    <data key='user.homepage.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.homepage.serverInfo' value='homepage.cnx00Node.ServerName=clHomepage_server0;homepage.cnx01Node.ServerName=clHomepage_server1;homepage.cnx02Node.ServerName=clHomepage_server2;homepage.cnx03Node.ServerName=clHomepage_server3;'/>
+    <data key='user.homepage.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clHomepage_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clHomepage_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clHomepage_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clHomepage_server3&quot;},]'/>
+    <data key='user.ccm.serverName' value='CCMCluster_server1'/>
+    <data key='user.ccm.clusterExist' value='false'/>
+    <data key='user.ccm.clusterName' value='clCCM'/>
+    <data key='user.ccm.firstNodeName' value='cnx04Node'/>
+    <data key='user.ccm.secondaryNodesNames' value='cnx05Node,'/>
+    <data key='user.ccm.serverInfo' value='ccm.cnx04Node.ServerName=clCCM_server4;ccm.cnx05Node.ServerName=clCCM_server5;'/>
+    <data key='user.ccm.clusterInfo' value='[{&quot;node&quot;: &quot;cnx04Node&quot;, &quot;name&quot;: &quot;clCCM_server4&quot;},{&quot;node&quot;: &quot;cnx05Node&quot;, &quot;name&quot;: &quot;clCCM_server5&quot;},]'/>
+    <data key='user.ccm.cluster.key.value' value='&quot;clCCM&quot; : [{&quot;node&quot;: &quot;cnx04Node&quot;, &quot;name&quot;: &quot;clCCM_server4&quot;},{&quot;node&quot;: &quot;cnx05Node&quot;, &quot;name&quot;: &quot;clCCM_server5&quot;},],'/>
+    <data key='user.metrics.clusterExist' value='false'/>
+    <data key='user.metrics.clusterName' value='clMetrics'/>
+    <data key='user.metrics.firstNodeName' value='cnx00Node'/>
+    <data key='user.metrics.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.metrics.serverInfo' value='metrics.cnx00Node.ServerName=clMetrics_server0;metrics.cnx01Node.ServerName=clMetrics_server1;metrics.cnx02Node.ServerName=clMetrics_server2;metrics.cnx03Node.ServerName=clMetrics_server3;'/>
+    <data key='user.metrics.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clMetrics_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clMetrics_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clMetrics_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clMetrics_server3&quot;},]'/>
+    <data key='user.mobile.clusterExist' value='false'/>
+    <data key='user.mobile.clusterName' value='clMobile'/>
+    <data key='user.mobile.firstNodeName' value='cnx00Node'/>
+    <data key='user.mobile.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.mobile.serverInfo' value='mobile.cnx00Node.ServerName=clMobile_server0;mobile.cnx01Node.ServerName=clMobile_server1;mobile.cnx02Node.ServerName=clMobile_server2;mobile.cnx03Node.ServerName=clMobile_server3;'/>
+    <data key='user.mobile.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clMobile_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clMobile_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clMobile_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clMobile_server3&quot;},]'/>
+    <data key='user.moderation.clusterExist' value='false'/>
+    <data key='user.moderation.clusterName' value='clModeration'/>
+    <data key='user.moderation.firstNodeName' value='cnx00Node'/>
+    <data key='user.moderation.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.moderation.serverInfo' value='moderation.cnx00Node.ServerName=clModeration_server0;moderation.cnx01Node.ServerName=clModeration_server1;moderation.cnx02Node.ServerName=clModeration_server2;moderation.cnx03Node.ServerName=clModeration_server3;'/>
+    <data key='user.moderation.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clModeration_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clModeration_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clModeration_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clModeration_server3&quot;},]'/>
+    <data key='user.news.clusterExist' value='false'/>
+    <data key='user.news.clusterName' value='clNews'/>
+    <data key='user.news.firstNodeName' value='cnx00Node'/>
+    <data key='user.news.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.news.serverInfo' value='news.cnx00Node.ServerName=clNews_server0;news.cnx01Node.ServerName=clNews_server1;news.cnx02Node.ServerName=clNews_server2;news.cnx03Node.ServerName=clNews_server3;'/>
+    <data key='user.news.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clNews_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clNews_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clNews_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clNews_server3&quot;},]'/>
+    <data key='user.profiles.clusterExist' value='false'/>
+    <data key='user.profiles.clusterName' value='clProfiles'/>
+    <data key='user.profiles.firstNodeName' value='cnx04Node'/>
+    <data key='user.profiles.secondaryNodesNames' value='cnx05Node,'/>
+    <data key='user.profiles.serverInfo' value='profiles.cnx04Node.ServerName=clProfiles_server4;profiles.cnx05Node.ServerName=clProfiles_server5;'/>
+    <data key='user.profiles.clusterInfo' value='[{&quot;node&quot;: &quot;cnx04Node&quot;, &quot;name&quot;: &quot;clProfiles_server4&quot;},{&quot;node&quot;: &quot;cnx05Node&quot;, &quot;name&quot;: &quot;clProfiles_server5&quot;},]'/>
+    <data key='user.search.clusterExist' value='false'/>
+    <data key='user.search.clusterName' value='clSearch'/>
+    <data key='user.search.firstNodeName' value='cnx00Node'/>
+    <data key='user.search.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.search.serverInfo' value='search.cnx00Node.ServerName=clSearch_server0;search.cnx01Node.ServerName=clSearch_server1;search.cnx02Node.ServerName=clSearch_server2;search.cnx03Node.ServerName=clSearch_server3;'/>
+    <data key='user.search.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clSearch_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clSearch_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clSearch_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clSearch_server3&quot;},]'/>
+    <data key='user.wikis.clusterExist' value='false'/>
+    <data key='user.wikis.clusterName' value='clWikis'/>
+    <data key='user.wikis.firstNodeName' value='cnx00Node'/>
+    <data key='user.wikis.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.wikis.serverInfo' value='wikis.cnx00Node.ServerName=clWikis_server0;wikis.cnx01Node.ServerName=clWikis_server1;wikis.cnx02Node.ServerName=clWikis_server2;wikis.cnx03Node.ServerName=clWikis_server3;'/>
+    <data key='user.wikis.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clWikis_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clWikis_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clWikis_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clWikis_server3&quot;},]'/>
+    <data key='user.rte.clusterExist' value='false'/>
+    <data key='user.rte.clusterName' value='clRTE'/>
+    <data key='user.rte.firstNodeName' value='cnx00Node'/>
+    <data key='user.rte.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.rte.serverInfo' value='rte.cnx00Node.ServerName=clRTE_server0;rte.cnx01Node.ServerName=clRTE_server1;rte.cnx02Node.ServerName=clRTE_server2;rte.cnx03Node.ServerName=clRTE_server3;'/>
+    <data key='user.rte.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clRTE_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clRTE_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clRTE_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clRTE_server3&quot;},]'/>
+    <data key='user.common.clusterExist' value='false'/>
+    <data key='user.common.clusterName' value='clCommon'/>
+    <data key='user.common.firstNodeName' value='cnx00Node'/>
+    <data key='user.common.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.common.serverInfo' value='common.cnx00Node.ServerName=clCommon_server0;common.cnx01Node.ServerName=clCommon_server1;common.cnx02Node.ServerName=clCommon_server2;common.cnx03Node.ServerName=clCommon_server3;'/>
+    <data key='user.common.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clCommon_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clCommon_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clCommon_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clCommon_server3&quot;},]'/>
+    <data key='user.widgetContainer.clusterExist' value='false'/>
+    <data key='user.widgetContainer.clusterName' value='clWidgets'/>
+    <data key='user.widgetContainer.firstNodeName' value='cnx00Node'/>
+    <data key='user.widgetContainer.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.widgetContainer.serverInfo' value='widgetContainer.cnx00Node.ServerName=clWidgets_server0;widgetContainer.cnx01Node.ServerName=clWidgets_server1;widgetContainer.cnx02Node.ServerName=clWidgets_server2;widgetContainer.cnx03Node.ServerName=clWidgets_server3;'/>
+    <data key='user.widgetContainer.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clWidgets_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clWidgets_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clWidgets_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clWidgets_server3&quot;},]'/>
+    <data key='user.pushNotification.clusterExist' value='false'/>
+    <data key='user.pushNotification.clusterName' value='clPush'/>
+    <data key='user.pushNotification.firstNodeName' value='cnx00Node'/>
+    <data key='user.pushNotification.secondaryNodesNames' value='cnx01Node,cnx02Node,cnx03Node,'/>
+    <data key='user.pushNotification.serverInfo' value='pushNotification.cnx00Node.ServerName=clPush_server0;pushNotification.cnx01Node.ServerName=clPush_server1;pushNotification.cnx02Node.ServerName=clPush_server2;pushNotification.cnx03Node.ServerName=clPush_server3;'/>
+    <data key='user.pushNotification.clusterInfo' value='[{&quot;node&quot;: &quot;cnx00Node&quot;, &quot;name&quot;: &quot;clPush_server0&quot;},{&quot;node&quot;: &quot;cnx01Node&quot;, &quot;name&quot;: &quot;clPush_server1&quot;},{&quot;node&quot;: &quot;cnx02Node&quot;, &quot;name&quot;: &quot;clPush_server2&quot;},{&quot;node&quot;: &quot;cnx03Node&quot;, &quot;name&quot;: &quot;clPush_server3&quot;},]'/>
+    <data key='user.database.type' value='DB2'/>
+    <data key='user.activities.dbType' value='DB2'/>
+    <data key='user.activities.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.activities.dbHostName' value='proddb2-opnact.company.com'/>
+    <data key='user.activities.dbPort' value='50000'/>
+    <data key='user.activities.dbName' value='OPNACT'/>
+    <data key='user.activities.dbUser' value='LCUSER'/>
+    <data key='user.activities.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.blogs.dbType' value='DB2'/>
+    <data key='user.blogs.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.blogs.dbHostName' value='proddb2-blogs.company.com'/>
+    <data key='user.blogs.dbPort' value='50000'/>
+    <data key='user.blogs.dbName' value='BLOGS'/>
+    <data key='user.blogs.dbUser' value='LCUSER'/>
+    <data key='user.blogs.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.communities.dbType' value='DB2'/>
+    <data key='user.communities.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.communities.dbHostName' value='proddb2-sncomm.company.com'/>
+    <data key='user.communities.dbPort' value='50000'/>
+    <data key='user.communities.dbName' value='SNCOMM'/>
+    <data key='user.communities.dbUser' value='LCUSER'/>
+    <data key='user.communities.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.dogear.dbType' value='DB2'/>
+    <data key='user.dogear.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.dogear.dbHostName' value='proddb2-dogear.company.com'/>
+    <data key='user.dogear.dbPort' value='50000'/>
+    <data key='user.dogear.dbName' value='DOGEAR'/>
+    <data key='user.dogear.dbUser' value='LCUSER'/>
+    <data key='user.dogear.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.profiles.dbType' value='DB2'/>
+    <data key='user.profiles.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.profiles.dbHostName' value='proddb2-peopledb.company.com'/>
+    <data key='user.profiles.dbPort' value='50000'/>
+    <data key='user.profiles.dbName' value='PEOPLEDB'/>
+    <data key='user.profiles.dbUser' value='LCUSER'/>
+    <data key='user.profiles.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.wikis.dbType' value='DB2'/>
+    <data key='user.wikis.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.wikis.dbHostName' value='proddb2-wikis.company.com'/>
+    <data key='user.wikis.dbPort' value='50000'/>
+    <data key='user.wikis.dbName' value='WIKIS'/>
+    <data key='user.wikis.dbUser' value='LCUSER'/>
+    <data key='user.wikis.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.files.dbType' value='DB2'/>
+    <data key='user.files.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.files.dbHostName' value='proddb2-files.company.com'/>
+    <data key='user.files.dbPort' value='50000'/>
+    <data key='user.files.dbName' value='FILES'/>
+    <data key='user.files.dbUser' value='LCUSER'/>
+    <data key='user.files.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.forums.dbType' value='DB2'/>
+    <data key='user.forums.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.forums.dbHostName' value='proddb2-forum.company.com'/>
+    <data key='user.forums.dbPort' value='50000'/>
+    <data key='user.forums.dbName' value='FORUM'/>
+    <data key='user.forums.dbUser' value='LCUSER'/>
+    <data key='user.forums.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.news.dbType' value='DB2'/>
+    <data key='user.news.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.news.dbHostName' value='proddb2-homepage.company.com'/>
+    <data key='user.news.dbPort' value='50000'/>
+    <data key='user.news.dbName' value='HOMEPAGE'/>
+    <data key='user.news.dbUser' value='LCUSER'/>
+    <data key='user.news.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.search.dbType' value='DB2'/>
+    <data key='user.search.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.search.dbHostName' value='proddb2-homepage.company.com'/>
+    <data key='user.search.dbPort' value='50000'/>
+    <data key='user.search.dbName' value='HOMEPAGE'/>
+    <data key='user.search.dbUser' value='LCUSER'/>
+    <data key='user.search.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.homepage.dbType' value='DB2'/>
+    <data key='user.homepage.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.homepage.dbHostName' value='proddb2-homepage.company.com'/>
+    <data key='user.homepage.dbPort' value='50000'/>
+    <data key='user.homepage.dbName' value='HOMEPAGE'/>
+    <data key='user.homepage.dbUser' value='LCUSER'/>
+    <data key='user.homepage.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.metrics.dbType' value='DB2'/>
+    <data key='user.metrics.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.metrics.dbHostName' value='proddb2-metrics.company.com'/>
+    <data key='user.metrics.dbPort' value='50000'/>
+    <data key='user.metrics.dbName' value='METRICS'/>
+    <data key='user.metrics.dbUser' value='LCUSER'/>
+    <data key='user.metrics.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.mobile.dbType' value='DB2'/>
+    <data key='user.mobile.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.mobile.dbHostName' value='proddb2-mobile.company.com'/>
+    <data key='user.mobile.dbPort' value='50000'/>
+    <data key='user.mobile.dbName' value='MOBILE'/>
+    <data key='user.mobile.dbUser' value='LCUSER'/>
+    <data key='user.mobile.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.pushNotification.dbType' value='DB2'/>
+    <data key='user.pushNotification.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.pushNotification.dbHostName' value='proddb2-pns.company.com'/>
+    <data key='user.pushNotification.dbPort' value='50000'/>
+    <data key='user.pushNotification.dbName' value='PNS'/>
+    <data key='user.pushNotification.dbUser' value='LCUSER'/>
+    <data key='user.pushNotification.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.ccm.jdbcLibraryPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.ccm.dbType' value='DB2'/>
+    <data key='user.ccm.gcd.dbHostName' value='proddb2-fngcd.company.com'/>
+    <data key='user.ccm.gcd.dbPort' value='50000'/>
+    <data key='user.ccm.gcd.dbName' value='FNGCD'/>
+    <data key='user.ccm.gcd.dbUser' value='LCUSER'/>
+    <data key='user.ccm.gcd.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.ccm.objstore.dbHostName' value='proddb2-fnos.company.com'/>
+    <data key='user.ccm.objstore.dbPort' value='50000'/>
+    <data key='user.ccm.objstore.dbName' value='FNOS'/>
+    <data key='user.ccm.objstore.dbUser' value='LCUSER'/>
+    <data key='user.ccm.objstore.dbUserPassword' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.contentStore.local.path' value='/opt/IBM/Connections/data/local'/>
+    <data key='user.contentStore.shared.path' value='/opt/IBM/SharedArea'/>
+    <data key='user.contentStore.shared.path.configproperties' value='/opt/IBM/SharedArea'/>
+    <data key='user.messageStore.shared.path' value='/opt/IBM/SharedArea'/>
+    <data key='user.connections.install.location' value='/opt/IBM/Connections'/>
+    <data key='user.connections.install.location.win32format' value='/opt/IBM/Connections'/>
+    <data key='user.ce.install.location' value='/opt/IBM/Connections/FileNet/ContentEngine'/>
+    <data key='user.ceclient.install.location' value='/opt/IBM/Connections/FileNet/CEClient'/>
+    <data key='user.fncs.install.location' value='/opt/IBM/Connections/FNCS'/>
+    <data key='user.notification.replyto.enabled' value='false'/>
+    <data key='user.notification.enabled' value='true'/>
+    <data key='user.notification.useJavaMailProvider' value='true'/>
+    <data key='user.notification.host' value='smtp.company.com'/>
+    <data key='user.notification.port' value='25'/>
+    <data key='user.notification.port.key.value' value='&quot;port&quot;: 25,'/>
+    <data key='user.notification.user.key.value' value='&quot;user&quot;:&quot;&quot;,'/>
+    <data key='user.notification.password.key.value' value='&quot;password&quot;:&quot;&quot;,'/>
+    <data key='user.notification.protocol.key.value' value='&quot;protocol&quot;:&quot;smtp&quot;,'/>
+    <data key='user.notification.ssl.enabled' value='false'/>
+    <data key='user.activities.new.add' value='false'/>
+    <data key='user.blogs.new.add' value='false'/>
+    <data key='user.communities.new.add' value='false'/>
+    <data key='user.ccm.new.add' value='false'/>
+    <data key='user.dogear.new.add' value='false'/>
+    <data key='user.profiles.new.add' value='false'/>
+    <data key='user.wikis.new.add' value='false'/>
+    <data key='user.files.new.add' value='false'/>
+    <data key='user.forums.new.add' value='false'/>
+    <data key='user.mobile.new.add' value='false'/>
+    <data key='user.metrics.new.add' value='false'/>
+    <data key='user.moderation.new.add' value='false'/>
+    <data key='user.clusterlist' value='clActivities,clBlogs,clCCM,clCommon,clCommunities,clDogear,clFiles,clForum,clHomepage,clMetrics,clMobile,clModeration,clNews,clProfiles,clPush,clRTE,clSearch,clWidgets,clWikis,'/>
+    <data key='user.clusterfullinfo' value='clActivities:cnx00Node#clActivities_server0,cnx01Node#clActivities_server1,cnx02Node#clActivities_server2,cnx03Node#clActivities_server3,;clBlogs:cnx00Node#clBlogs_server0,cnx01Node#clBlogs_server1,cnx02Node#clBlogs_server2,cnx03Node#clBlogs_server3,;clCCM:cnx04Node#clCCM_server4,cnx05Node#clCCM_server5,;clCommon:cnx00Node#clCommon_server0,cnx01Node#clCommon_server1,cnx02Node#clCommon_server2,cnx03Node#clCommon_server3,;clCommunities:cnx00Node#clCommunities_server0,cnx01Node#clCommunities_server1,cnx02Node#clCommunities_server2,cnx03Node#clCommunities_server3,;clDogear:cnx00Node#clDogear_server0,cnx01Node#clDogear_server1,cnx02Node#clDogear_server2,cnx03Node#clDogear_server3,;clFiles:cnx04Node#clFiles_server4,cnx05Node#clFiles_server5,;clForum:cnx00Node#clForum_server0,cnx01Node#clForum_server1,cnx02Node#clForum_server2,cnx03Node#clForum_server3,;clHomepage:cnx00Node#clHomepage_server0,cnx01Node#clHomepage_server1,cnx02Node#clHomepage_server2,cnx03Node#clHomepage_server3,;clMetrics:cnx00Node#clMetrics_server0,cnx01Node#clMetrics_server1,cnx02Node#clMetrics_server2,cnx03Node#clMetrics_server3,;clMobile:cnx00Node#clMobile_server0,cnx01Node#clMobile_server1,cnx02Node#clMobile_server2,cnx03Node#clMobile_server3,;clModeration:cnx00Node#clModeration_server0,cnx01Node#clModeration_server1,cnx02Node#clModeration_server2,cnx03Node#clModeration_server3,;clNews:cnx00Node#clNews_server0,cnx01Node#clNews_server1,cnx02Node#clNews_server2,cnx03Node#clNews_server3,;clProfiles:cnx04Node#clProfiles_server4,cnx05Node#clProfiles_server5,;clPush:cnx00Node#clPush_server0,cnx01Node#clPush_server1,cnx02Node#clPush_server2,cnx03Node#clPush_server3,;clRTE:cnx00Node#clRTE_server0,cnx01Node#clRTE_server1,cnx02Node#clRTE_server2,cnx03Node#clRTE_server3,;clSearch:cnx00Node#clSearch_server0,cnx01Node#clSearch_server1,cnx02Node#clSearch_server2,cnx03Node#clSearch_server3,;clWidgets:cnx00Node#clWidgets_server0,cnx01Node#clWidgets_server1,cnx02Node#clWidgets_server2,cnx03Node#clWidgets_server3,;clWikis:cnx00Node#clWikis_server0,cnx01Node#clWikis_server1,cnx02Node#clWikis_server2,cnx03Node#clWikis_server3,;'/>
+    <data key='user.nodesServerlist' value='cnx00Node:clActivities_server0,clBlogs_server0,clCommon_server0,clCommunities_server0,clDogear_server0,clForum_server0,clHomepage_server0,clMetrics_server0,clMobile_server0,clModeration_server0,clNews_server0,clPush_server0,clRTE_server0,clSearch_server0,clWidgets_server0,clWikis_server0;cnx01Node:clActivities_server1,clBlogs_server1,clCommon_server1,clCommunities_server1,clDogear_server1,clForum_server1,clHomepage_server1,clMetrics_server1,clMobile_server1,clModeration_server1,clNews_server1,clPush_server1,clRTE_server1,clSearch_server1,clWidgets_server1,clWikis_server1;cnx02Node:clActivities_server2,clBlogs_server2,clCommon_server2,clCommunities_server2,clDogear_server2,clForum_server2,clHomepage_server2,clMetrics_server2,clMobile_server2,clModeration_server2,clNews_server2,clPush_server2,clRTE_server2,clSearch_server2,clWidgets_server2,clWikis_server2;cnx03Node:clActivities_server3,clBlogs_server3,clCommon_server3,clCommunities_server3,clDogear_server3,clForum_server3,clHomepage_server3,clMetrics_server3,clMobile_server3,clModeration_server3,clNews_server3,clPush_server3,clRTE_server3,clSearch_server3,clWidgets_server3,clWikis_server3;cnx04Node:clCCM_server4,clFiles_server4,clProfiles_server4;cnx05Node:clCCM_server5,clFiles_server5,clProfiles_server5;'/>
+  </profile>
+  <install>
+    <!-- IBM Connections 5.5.0.0_CR1 -->
+    <offering profile='IBM Connections' id='com.ibm.connections' version='5.5.0.0_20160515_1442' features='main,common,files,homepage,news,pushNotification,search,rte,widgetContainer,activities,blogs,ccm,communities,dogear,forums,metrics,mobile,moderation,profiles,wikis'/>
+  </install>
+  <preference name='com.ibm.cic.common.core.preferences.eclipseCache' value='${sharedLocation}'/>
+  <preference name='offering.service.repositories.areUsed' value='false'/>
+</agent-input>

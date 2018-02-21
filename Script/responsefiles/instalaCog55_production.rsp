@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<agent-input>
+  <variables>
+    <variable name='sharedLocation' value='/opt/IBM/IMShared'/>
+  </variables>
+  <server>
+    <repository location='/opt/IBM/Binarios/c55/cognos/IBM_Cognos_Install_Linux/CognosWizard'/>
+  </server>
+  <profile id='IBM Cognos Wizard' installLocation='/opt/IBM/Cognos'>
+    <data key='cic.selector.arch' value='x86'/>
+    <data key='user.job' value='INSTALL'/>
+    <data key='user.lcinstallscript.path' value='/var/ibm/InstallationManager/../LCInstallScript'/>
+    <data key='user.dmClusterlist' value='clActivities,clBlogs,clCCM,clCommon,clCommunities,clDogear,clFiles,clForum,clHomepage,clMetrics,clMobile,clModeration,clNews,clProfiles,clPush,clRTE,clSearch,clWidgets,clWikis,'/>
+    <data key='user.dmNodeslist' value='cnx00Node,cnx01Node,cnx02Node,cnx03Node,cnx04Node,cnx05Node,cnx10Node,'/>
+    <data key='user.dmClusterfullinfo' value='clActivities:cnx00Node#clActivities_server0,cnx01Node#clActivities_server1,cnx02Node#clActivities_server2,cnx03Node#clActivities_server3,;clBlogs:cnx00Node#clBlogs_server0,cnx01Node#clBlogs_server1,cnx02Node#clBlogs_server2,cnx03Node#clBlogs_server3,;clCCM:cnx04Node#clCCM_server4,cnx05Node#clCCM_server5,;clCommon:cnx00Node#clCommon_server0,cnx01Node#clCommon_server1,cnx02Node#clCommon_server2,cnx03Node#clCommon_server3,;clCommunities:cnx00Node#clCommunities_server0,cnx01Node#clCommunities_server1,cnx02Node#clCommunities_server2,cnx03Node#clCommunities_server3,;clDogear:cnx00Node#clDogear_server0,cnx01Node#clDogear_server1,cnx02Node#clDogear_server2,cnx03Node#clDogear_server3,;clFiles:cnx04Node#clFiles_server4,cnx05Node#clFiles_server5,;clForum:cnx00Node#clForum_server0,cnx01Node#clForum_server1,cnx02Node#clForum_server2,cnx03Node#clForum_server3,;clHomepage:cnx00Node#clHomepage_server0,cnx01Node#clHomepage_server1,cnx02Node#clHomepage_server2,cnx03Node#clHomepage_server3,;clMetrics:cnx00Node#clMetrics_server0,cnx01Node#clMetrics_server1,cnx02Node#clMetrics_server2,cnx03Node#clMetrics_server3,;clMobile:cnx00Node#clMobile_server0,cnx01Node#clMobile_server1,cnx02Node#clMobile_server2,cnx03Node#clMobile_server3,;clModeration:cnx00Node#clModeration_server0,cnx01Node#clModeration_server1,cnx02Node#clModeration_server2,cnx03Node#clModeration_server3,;clNews:cnx00Node#clNews_server0,cnx01Node#clNews_server1,cnx02Node#clNews_server2,cnx03Node#clNews_server3,;clProfiles:cnx04Node#clProfiles_server4,cnx05Node#clProfiles_server5,;clPush:cnx00Node#clPush_server0,cnx01Node#clPush_server1,cnx02Node#clPush_server2,cnx03Node#clPush_server3,;clRTE:cnx00Node#clRTE_server0,cnx01Node#clRTE_server1,cnx02Node#clRTE_server2,cnx03Node#clRTE_server3,;clSearch:cnx00Node#clSearch_server0,cnx01Node#clSearch_server1,cnx02Node#clSearch_server2,cnx03Node#clSearch_server3,;clWidgets:cnx00Node#clWidgets_server0,cnx01Node#clWidgets_server1,cnx02Node#clWidgets_server2,cnx03Node#clWidgets_server3,;clWikis:cnx00Node#clWikis_server0,cnx01Node#clWikis_server1,cnx02Node#clWikis_server2,cnx03Node#clWikis_server3,;'/>
+    <data key='user.dmNodesServerlist' value='pxl0scb00300Node:clActivities_server0,clBlogs_server0,clCommon_server0,clCommunities_server0,clDogear_server0,clForum_server0,clHomepage_server0,clMetrics_server0,clMobile_server0,clModeration_server0,clNews_server0,clPush_server0,clRTE_server0,clSearch_server0,clWidgets_server0,clWikis_server0;cnx01Node:clActivities_server1,clBlogs_server1,clCommon_server1,clCommunities_server1,clDogear_server1,clForum_server1,clHomepage_server1,clMetrics_server1,clMobile_server1,clModeration_server1,clNews_server1,clPush_server1,clRTE_server1,clSearch_server1,clWidgets_server1,clWikis_server1;cnx02Node:clActivities_server2,clBlogs_server2,clCommon_server2,clCommunities_server2,clDogear_server2,clForum_server2,clHomepage_server2,clMetrics_server2,clMobile_server2,clModeration_server2,clNews_server2,clPush_server2,clRTE_server2,clSearch_server2,clWidgets_server2,clWikis_server2;cnx03Node:clActivities_server3,clBlogs_server3,clCommon_server3,clCommunities_server3,clDogear_server3,clForum_server3,clHomepage_server3,clMetrics_server3,clMobile_server3,clModeration_server3,clNews_server3,clPush_server3,clRTE_server3,clSearch_server3,clWidgets_server3,clWikis_server3;cnx04Node:clCCM_server4,clFiles_server4,clProfiles_server4;cnx05Node:clCCM_server5,clFiles_server5,clProfiles_server5;cnx10Node:febserver;'/>
+    <data key='user.dmNodesHostnamelist' value='cnx00.company.com,cnx01.company.com,cnx02.company.com,cnx03.company.com,cnx04.company.com,cnx05.company.com,cnx10.company.com,'/>
+    <data key='user.was.selectedNodeName' value='cnx12Node'/>
+    <data key='user.was.selectedCellName' value='cnx12Node01Cell'/>
+    <data key='user.cognos.isPrimary' value='true'/>
+    <data key='user.cognos.installlocation' value='/opt/IBM/Cognos'/>
+    <data key='user.was.localWasInstallLoc' value='/opt/IBM/WebSphere/AppServer'/>
+    <data key='user.was.selectedNodeProfilePath' value='/opt/IBM/WebSphere/AppServer/profiles/AppSrv01'/>
+    <data key='user.dm.soapPort' value='8879'/>
+    <data key='user.was.selectedNodeProfileName' value='AppSrv01'/>
+    <data key='user.was.dmCellName' value='connectionsCell'/>
+    <data key='user.was.dmHostname' value='cnx11.company.com'/>
+    <data key='user.was.localHost' value='cnx12.company.com'/>
+    <data key='user.was.localUserId' value='@@WAS_USERNAME@@'/>
+    <data key='user.was.localPasswd' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.was.localSoapPortNum' value='8880'/>
+    <data key='user.dm.adminuser.id' value='@@WAS_USERNAME@@'/>
+    <data key='user.dm.adminuser.password' value='@@WAS_ENCODED_PASSWORD@@'/>
+    <data key='user.connDriverPath' value='/opt/IBM/db2/V10.5/java'/>
+    <data key='user.cognos.topology.clusterName' value='clCognos'/>
+    <data key='user.cognos.topology.serverName' value='cogserver'/>
+    <data key='user.cognos.topology.cognosContextRoot' value='cognos'/>
+    <data key='user.db.jdbcDriver' value='/opt/IBM/db2/V10.5/java/'/>
+    <data key='user.system.java.home' value='/opt/IBM/InstallationManager/eclipse/jre_7.0.9030.20160210_1426/jre'/>
+    <data key='user.db.metrics_local_db_name' value='METRICS'/>
+    <data key='user.metrics.db.dbName' value='METRICS'/>
+    <data key='user.metrics.db.dbHostname' value='proddb2-metrics.company.com'/>
+    <data key='user.metrics.db.port' value='50000'/>
+    <data key='user.metrics.db.userID' value='LCUSER'/>
+    <data key='user.metrics.db.pw' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.metrics.db.dbType' value='db2'/>
+    <data key='user.metrics.db.dataSourceTemplateName' value='DB2 Universal JDBC Driver DataSource'/>
+    <data key='user.metrics.db.jdbcProviderTemplateName' value='DB2 Universal JDBC Driver Provider'/>
+    <data key='user.cognos.db.dbName' value='COGNOS'/>
+    <data key='user.cognos.db.dbHostname' value='proddb2-cognos.company.com'/>
+    <data key='user.cognos.db.port' value='50000'/>
+    <data key='user.cognos.db.userID' value='LCUSER'/>
+    <data key='user.cognos.db.pw' value='@@DB_ENCODED_PASSWORD@@'/>
+    <data key='user.cognos.db.dbType' value='db2'/>
+    <data key='user.cognos.db.dataSourceTemplateName' value='DB2 Universal JDBC Driver DataSource'/>
+    <data key='user.cognos.db.jdbcProviderTemplateName' value='DB2 Universal JDBC Driver Provider'/>
+    <data key='user.cognos.credential.adminId' value='uid=colabusr,ou=users,o=company,c=us'/>
+    <data key='user.cognos.credential.adminPw' value='@@COGNOS_ENCODED_PASSWORD@@'/>
+    <data key='user.cognos.bi.installer.location' value='/opt/IBM/Binarios/c55/cognos/bisvr/linuxi38664h/issetup'/>
+    <data key='user.cognos.credential.power_cube_path' value='/opt/IBM/CognosPC'/>
+    <data key='user.cognos.credential.transformer_installer_path' value='/opt/IBM/Binarios/c55/cognos/bitrf/linuxi38664h/issetup'/>
+  </profile>
+  <install>
+    <!-- Cognos Wizard 5.5.0.0 CR1-->
+    <offering profile='IBM Cognos Wizard' id='com.ibm.lotus.cognos.wizard' version='5.5.0.0_20160515_0919' features='primary_bi_server,transformer'/>
+  </install>
+  <preference name='com.ibm.cic.common.core.preferences.eclipseCache' value='${sharedLocation}'/>
+  <preference name='offering.service.repositories.areUsed' value='false'/>
+</agent-input>
